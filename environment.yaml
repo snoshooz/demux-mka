@@ -1,0 +1,12 @@
+name: demux-mka
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  - pip:
+      - audio-separator==0.47.0
+      - onnxruntime==1.23.2
+      - pillow==12.3.0
+      - pydub==0.25.1
+      - scrapetube==2.6.0
+      - yt-dlp==2026.8.19
